@@ -20,8 +20,11 @@ if st.button("Submit"):
         if num2 != 0:
             result = num1 / num2
         else:
+            import numpy
+import sympy
             result = "Error: Cannot divide by zero"
     st.success(f"Result: {result}")
 
 import numpy
 import sympy
+
